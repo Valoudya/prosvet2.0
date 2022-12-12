@@ -1,0 +1,24 @@
+{
+  "name": "prosvet2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass source -o public",
+    "dev": "node-sass source --watch -o public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valoudya/prosvet2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valoudya/prosvet2.0/issues"
+  },
+  "homepage": "https://github.com/Valoudya/prosvet2.0#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
