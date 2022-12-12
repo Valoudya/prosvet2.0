@@ -1,15 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 .page {
   &__header {
+    &__menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #131313;
+      &__logo {
+        a {
+          font-size: 20px;
+          color: #ffffff;
+          text-decoration: none;
+          &:hover {
+            color: #00D0FF;
+          }
+        }
 
-    &__logo {
+      }
+      &__nav {
+        p {
+          color: white;
+        }
 
-    }
-    &__nav {
-      a {
-        &:hover {
-          transition: 1s;
+        a {
+          font-size: 20px;
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: 600;
+
+          &:hover {
+            color: #00D0FF;
+          }
         }
       }
+    }
+  }
+  &__firstscreen {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("http://prosvetkbsu.ru/wp-content/uploads/2022/08/ФонГлавная2-scaled.jpg"); //не забыть поменять
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: 600;
     }
   }
 }
