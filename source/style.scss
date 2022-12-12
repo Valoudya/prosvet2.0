@@ -1,0 +1,15 @@
+.page {
+  &__header {
+
+    &__logo {
+
+    }
+    &__nav {
+      a {
+        &:hover {
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
